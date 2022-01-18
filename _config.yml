@@ -1,0 +1,178 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Jacob Brown
+title: Data Scientist
+email: jacob.42.brown@gmail.com
+#website: jacob-brown.github.io
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+#twitter_username: facespics
+github_username:  jacob-brown
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jameswgrant
+linkedin_username: jacob-42-brown
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: my programming notes
+  icon: fas fa-book
+  url: https://jacob-brown.github.io/programming-notes-book/intro.html
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/Headshot.png
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Jacob and I'm a data scientist with over 5 years of experience working with data, including at a remote field site in the Kalahari desert. I am currently working as a Data Specialist for Health Insurance Fund Ltd. I have a passion for automation tasks, producing elegantly written code, and uncovering insights through statistics. 
+
+  I have worked with a range of different techniques and languages, and I am most skilled in: <mark>Python</mark>, <mark>R</mark>, <mark>git</mark>, <mark>SQL</mark>, <mark>predictive modelling</mark>, <mark>big data</mark>, and <mark>data visualisation</mark>. 
+
+  I'm an adaptable team player who loves solving problems and learning new skills! 
+
+
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Health Insurance Fund Ltd.
+        link: https://www.hif.com.au/
+        link_text: hif.com.au
+        sub_title: Data Specialist
+        caption: 2021 - Present
+        quote: >
+          Our priority is to help our members and their dependents lead healthy and happy lives. Simple as that.
+
+        description: | # this will include new lines to allow paragraphs
+          * Advancing the BI team in a more data-focussed direction by implementing, advising, and providing knowledge of established and emerging data science techniques
+          * 30% improved efficiency in BI reporting, through use of SQL Server environment and python, by optimising and automating data workflows
+          * Develop and maintain data warehouse, including writing database documentation and protocols
+          * Data mining to reveal patterns, understand trends, and build predictive models
+          * Drive decisions and influence outcomes across the business through data insights and statistics
+          * Convey complex themes to functional teams and stakeholders, through data visualisation and written reports
+          * Influenced operations team protocols, by uncovering a 28% inaccuracy with processing methods, through statistical analysis of customer data
+      
+      - layout: left
+        title: Green Squirrel
+        link: https://www.greensquirrel.io/
+        link_text: greensquirrel.io
+        sub_title: Freelance Website Developer
+        caption: 2020-2021
+        quote: >
+          We are here to help independent and local businesses get online for the first time, and operate in an eco-friendly and sustainable way.
+        description: | # this will include new lines to allow paragraphs
+          * Increased client online exposure by developing and designing websites
+          * Offset client websites carbon impact by 300% by deploying on green servers
+
+
+      - layout: left
+        title: Kalahari Meerkat Project
+        link: https://kalahariresearchcentre.org/
+        link_text: kalahariresearchcentre.org
+        sub_title: Project Manager
+        caption: 2016 - 2019
+        quote: >
+          Unprecedented access to a society of wild meerkats, and the key that unlocked a thirty year research study.
+        description: | # this will include new lines to allow paragraphs
+
+          * In the remote Kalahari desert I managed a team of 12 at a biological field site, motivating and supporting them in a demanding environment
+          * Offered the manager position after 5 months, by demonstrating a high understanding of the scientific method, key community and team-oriented values, and versatility within role (i.e. from Big Data to maintaining diesel generators) 
+          * Managed the MySQL database and led data extraction and preparation workshops for new researchers and students
+          * Reduced data discrepancies through statistical analysis, by introducing team member KPIs and developing data quality monitoring scripts
+          * Implemented and maintained experimental data collection for 2 research groups, including ~600 DNA-sampling captures on wild meerkats
+          * Reduced data processing and checking time by ~200 hours per month by developing R shiny applications and dashboards
+          * Improved reporting time by ~80% by converting manual analysis to automated workflows
+
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Imperial College London
+        caption: 2019-2020
+        sub_title: MRes Computational Methods in Ecology and Evolution
+        quote: >
+          Consistently rated amongst the world's best universities, Imperial is committed to developing  the next generation of researchers, scientists and academics through collaboration across disciplines.
+
+          Imperial brings together intersecting disciplines, industries and sectors across four major areas to further our understanding of the natural world, solve major engineering problems, lead the data science revolution and improve health and well-being.
+
+        description: | # this will include new lines to allow paragraphs
+          During my time at Imperial I was encouraged to pursue novel ideas and to assess the world through critical thought. I continued to advance my knowledge in analysis and programming which I use to my advantage in my day to day work.
+
+          In my spare time I established and ran the Silwood Park Beer Brewing Society, introducing the art of brewing to all that wished to learn.
+
+
+      - layout: left
+        title: Cardiff University
+        caption: 2013-2016
+        sub_title: BSc Zoology (Hons)
+        quote: >
+          Founded in 1883, Cardiff University is established as one of Britain's leading research universities.
+        description: | # this will include new lines to allow paragraphs
+          During my degree I was immersed within the scientific method, a core approach that I continue to practice. Studying Zoology allowed me to pursue my interest in wildlife and the natural world, and also introduce me to a new passion for analysing and handling data. 
+
+
+#  - title: Projects # Title for the section
+#    layout: list # Type of content section (list/text)
+#    content:
+#      - layout: top-middle
+#        title: Super awesome project
+#        link: github.com/sproogen
+#        # link_text: Project Website
+#        additional_links:
+#          - title:  sproogen/modern-resume-theme
+#            icon: fab fa-github
+#            url: github.com/sproogen/modern-resume-theme
+#          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#          #   icon: fab fa-github
+#          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#        quote: >
+#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+#        description: | # this will include new lines to allow paragraphs
+#          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+
+  - title: When I'm not working
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      When I'm not behind the desk I spend most of my time outdoors. I'm often out mountain biking, road cycling, or hiking in the national parks around WA. I've also been brewing beer for the last few years, and I'm constantly trying to improve and try new recipes.
+
+
+# Footer
+footer_show_references: true
+#references_title: 'override' 
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
