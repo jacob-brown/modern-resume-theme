@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/Headshot.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Jacob and I'm a data scientist with over 5 years of experience working with data, including at a remote field site in the Kalahari desert. I am currently working as a Data Specialist for Health Insurance Fund Ltd. I have a passion for automation tasks, producing elegantly written code, and uncovering insights through statistics. 
+  Hi, my name's Jacob and I'm a data scientist with over 5 years of experience working with data, including at a remote field site in the Kalahari desert. I am currently working as a Data Specialist for Health Insurance Fund Ltd. I have a passion for automating tasks, producing elegantly written code, and uncovering insights through statistics. 
 
   I have worked with a range of different techniques and languages, and I am most skilled in: <mark>Python</mark>, <mark>R</mark>, <mark>git</mark>, <mark>SQL</mark>, <mark>predictive modelling</mark>, <mark>big data</mark>, and <mark>data visualisation</mark>. 
 
@@ -137,24 +137,26 @@ content:
           During my degree I was immersed within the scientific method, a core approach that I continue to practice. Studying Zoology allowed me to pursue my interest in wildlife and the natural world, and also introduce me to a new passion for analysing and handling data. 
 
 
-#  - title: Projects # Title for the section
-#    layout: list # Type of content section (list/text)
-#    content:
-#      - layout: top-middle
-#        title: Super awesome project
-#        link: github.com/sproogen
-#        # link_text: Project Website
-#        additional_links:
-#          - title:  sproogen/modern-resume-theme
-#            icon: fab fa-github
-#            url: github.com/sproogen/modern-resume-theme
-#          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-#          #   icon: fab fa-github
-#          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-#        quote: >
-#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-#        description: | # this will include new lines to allow paragraphs
-#          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: EquSeq
+        link: https://github.com/jacob-brown/EquSeq
+        # link_text: Project Website
+        #additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        #quote: >
+        #  This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          I created this project as part of my masters. It forms the basis of a personal genetics analysis pipeline for horses. I aggregated many open source tools and to conduct this novel analysis, for which individual samples are assigned ancestry, traits, and mouth microbial biodiversity. 
+
+          I utilised: <mark>big data</mark>, <mark>python</mark>, <mark>bash</mark>, <mark>R</mark>, <mark>linux</mark>, and <mark>cluster computing</mark>
 
 
   - title: When I'm not working
