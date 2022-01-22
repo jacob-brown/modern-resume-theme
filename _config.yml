@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/Headshot.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Jacob and I'm a data scientist with over 5 years of experience working with data, including at a remote field site in the Kalahari desert. I am currently working as a Data Specialist for Health Insurance Fund Ltd. I have a passion for automating tasks, producing elegantly written code, and uncovering insights through statistics. 
+  Hi, my name is Jacob and I'm a data scientist with over 5 years of experience working with data, including at a remote field site in the Kalahari desert. I am currently working as a Data Specialist for Health Insurance Fund Ltd. I have a passion for automating tasks, producing elegantly written code, and uncovering insights through statistics. 
 
   I have worked with a range of different techniques and languages, and I am most skilled in: <mark>Python</mark>, <mark>R</mark>, <mark>git</mark>, <mark>SQL</mark>, <mark>predictive modelling</mark>, <mark>big data</mark>, and <mark>data visualisation</mark>. 
 
@@ -70,12 +70,13 @@ content:
 
         description: | # this will include new lines to allow paragraphs
           * Advancing the BI team in a more data-focussed direction by implementing, advising, and providing knowledge of established and emerging data science techniques
-          * 30% improved efficiency in BI reporting, through use of SQL Server environment and python, by optimising and automating data workflows
+          * Improved efficiency in BI reporting by 30% through use of SQL Server environment and python to optimise and automate data workflows
           * Develop and maintain data warehouse, including writing database documentation and protocols
           * Data mining to reveal patterns, understand trends, and build predictive models
           * Drive decisions and influence outcomes across the business through data insights and statistics
-          * Convey complex themes to functional teams and stakeholders, through data visualisation and written reports
-          * Influenced operations team protocols, by uncovering a 28% inaccuracy with processing methods, through statistical analysis of customer data
+          * Convey complex themes to functional teams and stakeholders through data visualisation and written reports
+          * Influenced operations team protocols by uncovering a 28% inaccuracy with processing methods, through data mining
+
       
       - layout: left
         title: Green Squirrel
@@ -99,12 +100,10 @@ content:
         quote: >
           Unprecedented access to a society of wild meerkats, and the key that unlocked a thirty year research study.
         description: | # this will include new lines to allow paragraphs
-
           * In the remote Kalahari desert I managed a team of 12 at a biological field site, motivating and supporting them in a demanding environment
-          * Offered the manager position after 5 months, by demonstrating a high understanding of the scientific method, key community and team-oriented values, and versatility within role (i.e. from Big Data to maintaining diesel generators) 
+          * Offered the manager position after 5 months, by demonstrating a high understanding of the scientific method, key community and team-oriented values, and versatility within role (i.e. from Big Data to maintaining diesel generators)
           * Managed the MySQL database and led data extraction and preparation workshops for new researchers and students
-          * Reduced data discrepancies through statistical analysis, by introducing team member KPIs and developing data quality monitoring scripts
-          * Implemented and maintained experimental data collection for 2 research groups, including ~600 DNA-sampling captures on wild meerkats
+          * Reduced data discrepancies by introducing team member KPIs and developing data quality monitoring scripts
           * Reduced data processing and checking time by ~200 hours per month by developing R shiny applications and dashboards
           * Improved reporting time by ~80% by converting manual analysis to automated workflows
 
